@@ -1,5 +1,5 @@
-#ifndef MIKE10004_TEMPLATE_HELLO_HELLO_H_
-#define MIKE10004_TEMPLATE_HELLO_HELLO_H_
+#ifndef HELLO_PARENT_HELLO_HELLO_H_
+#define HELLO_PARENT_HELLO_HELLO_H_
 
 #include <iostream>
 
@@ -9,4 +9,4 @@ void SayHello(std::ostream &out);
 
 } // namespace hello
 
-#endif //MIKE10004_TEMPLATE_HELLO_HELLO_H_
+#endif //HELLO_PARENT_HELLO_HELLO_H_

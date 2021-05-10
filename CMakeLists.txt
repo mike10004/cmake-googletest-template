@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.19)
-project(mike10004_template)
+project(hello_parent)
 
 set(CMAKE_CXX_STANDARD 17)
 
