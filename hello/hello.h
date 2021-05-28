@@ -1,12 +1,11 @@
-#ifndef HELLO_PARENT_HELLO_HELLO_H_
-#define HELLO_PARENT_HELLO_HELLO_H_
+#ifndef USING_GOOGLETEST_HELLO_H
+#define USING_GOOGLETEST_HELLO_H
 
-#include <iostream>
+namespace hello
+{
 
-namespace hello {
+int add(int x, int y);
 
-void SayHello(std::ostream &out);
+} // ns: hello
 
-} // namespace hello
-
-#endif //HELLO_PARENT_HELLO_HELLO_H_
+#endif //USING_GOOGLETEST_HELLO_H

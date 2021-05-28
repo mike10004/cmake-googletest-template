@@ -1,8 +1,9 @@
+cmake_minimum_required(VERSION 3.19)
 project(hello_test)
 
-add_subdirectory(googletest)
+set(CMAKE_CXX_STANDARD 17)
 
-include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+include_directories(${gtest_SOURCE_DIR}/include)
 include_directories(../hello)
 
 add_executable(hello_test hello_test.cpp)

@@ -1,7 +1,5 @@
-#include <iostream>
 #include "hello.h"
 
-void hello::SayHello(std::ostream& out)
-{
-    out << "hello, world";
+int hello::add(int x, int y) {
+    return x + y;
 }
